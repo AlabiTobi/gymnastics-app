@@ -5,6 +5,12 @@ import './Plans.css'
 const Plans = () => {
   return(
     <div className='plans-container'>
+        <div className='blur plans-blur-1'> 
+            
+        </div>
+        <div className='blur plans-blur-2'> 
+            
+        </div>
         <div className='programs-header' >
             <span className='stroke-text'>READY TO START</span>
             <span>YOUR JOURNEY</span>
@@ -29,7 +35,7 @@ const Plans = () => {
                         ))}
                     </div>
                     <div>
-                        <span>See more benefits ></span>
+                        <span>See more benefits </span>
                     </div>
                     <button className="btn">Join now</button>
                 </div>
